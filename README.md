@@ -3,7 +3,7 @@ App To Do List
 
 # README.md
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://res.cloudinary.com/kefrari27/image/upload/c_scale,w_150/v1602534445/Portafolio/Favicon_it7ppp.png)
 
 App To Do List
 =============
@@ -18,3 +18,4 @@ Conoce la App
 -------------
 
 En el siguiente enlace podrás observar la app desde _github pages_ :
+https://kefrari27.github.io/To-Do-List/
