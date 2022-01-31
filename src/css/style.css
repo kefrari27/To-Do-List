@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Mochiy+Pop+P+One&display=swap');
+
+
+body{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+  font-family: 'Dongle', sans-serif;
+  font-size: 26px;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  color: blanchedalmond;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 35px;
+}
+
+#contenedor-list{
+  background-color: #fff;
+  min-width: 320px;
+  max-width: 450px;
+  min-height: 160px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px 0px #013123;
+  display: flex;
+  flex-direction: column;
+}
+
+.elemento{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.elemento .contenedor-descripcion{
+  display: flex;
+  align-items: center;
+  margin: auto 10px;
+}
+
+.elemento .contenedor-descripcion .fas{
+  font-size: 16px;
+  margin: auto 5px;
+}
+
+.elemento .contenedor-estado{
+  display: flex;
+  align-items: center;
+}
+
+.elemento .contenedor-estado .btn-eliminar{
+  background-color: #fff;
+  border: none;
+  margin: auto 5px;
+  cursor: pointer;
+}
+
+.elemento .contenedor-estado .btn-eliminar .fas{
+  color: rgb(220, 40, 40);
+}
+
+.contenedor-form{
+  background-color: #fff;
+  min-width: 320px;
+  max-width: 450px;
+  min-height: 60px;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: -5px 5px 5px 0px #013123;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-form #form{
+  display: flex;
+}
+
+.contenedor-form .btn-agregar{
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contenedor-form .btn-agregar .fas{
+  font-size: 25px;
+  color: #008d94;
+}
+
+#descripcion{
+  min-width: 210px;
+  max-width: 280px;
+  min-height: 30px;
+  margin: auto 5px;
+}
+
+#estado{
+  min-height: 30px;
+  margin: auto 5px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer p{
+  color: #fff;
+  font-size: 26px;
+}
