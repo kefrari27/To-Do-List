@@ -27,9 +27,7 @@ class Activity{
 //Mensaje de prueba
 console.log('Probando, probando...');
 
-const listadoActividades = [
-  new Activity('Hacer aseo al cuarto', 'Pendiente'),
-];
+const listadoActividades = [];
 
 function mostrarListado(){
   //Mensaje de prueba de función
@@ -65,12 +63,13 @@ function agregarActividad(){
     mostrarListado();
   }
   else{
-    console.log('No hay información que agregar');
+    window.alert('No hay información que agregar');
   }
 }
 
 function eliminarActividad(id){
   let indiceEliminar = listadoActividades.findIndex(actividad => actividad.id === id);
+  console.log(indiceEliminar);
   listadoActividades.splice(indiceEliminar, 1);
   mostrarListado();
 }
