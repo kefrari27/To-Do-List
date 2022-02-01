@@ -27,6 +27,7 @@ class Activity{
 //Mensaje de prueba
 console.log('Probando, probando...');
 
+//Creamos el arreglo que almacena el listado de actividades
 const listadoActividades = [];
 
 function mostrarListado(){
